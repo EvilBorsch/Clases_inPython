@@ -112,7 +112,9 @@ def get_car_list(csv_filename):
     return car_list
 
 csv_filename = "C:\\PythonFiles\\coursera.csv"
+
 try:
+    print("Список объектов: ")
     car_list = (get_car_list(csv_filename))
 except:
     print("Такого файла не существует")
